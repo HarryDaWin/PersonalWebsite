@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1f80830.css",
+    "main.js": "/static/js/main.35955c91.js",
+    "static/js/453.55c3503c.chunk.js": "/static/js/453.55c3503c.chunk.js",
+    "static/media/resume.pdf": "/static/media/resume.901e44bda72292eca71b.pdf",
+    "static/media/obito.jpg": "/static/media/obito.14053b872a4aba78e7e2.jpg",
+    "index.html": "/index.html",
+    "main.d1f80830.css.map": "/static/css/main.d1f80830.css.map",
+    "main.35955c91.js.map": "/static/js/main.35955c91.js.map",
+    "453.55c3503c.chunk.js.map": "/static/js/453.55c3503c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1f80830.css",
+    "static/js/main.35955c91.js"
+  ]
+}
