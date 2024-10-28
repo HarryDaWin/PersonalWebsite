@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/PersonalWebsite">
       <Routes>
         <Route exact path="/" element={<About />} />
         <Route path="/about" element={<Navigate to="/" replace />} />
