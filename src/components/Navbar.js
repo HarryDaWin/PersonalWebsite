@@ -43,6 +43,24 @@ const Navbar = () => {
                         Resume
                     </NavLink>
                 </li>
+                <li>
+                    <a 
+                        href="https://www.linkedin.com/in/harrison-huynh-376b57225/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        href="https://github.com/HarryDaWin" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+                </li>
             </ul>
         </nav>
     );

@@ -1,9 +1,9 @@
 * {
-  background-color: #1c1c1c;
+  background-color: #202020;
 }
 
 nav {
-  background-color: #1c1c1c;
+  background-color: #202020;
   padding: 1rem;
 }
 
@@ -47,6 +47,30 @@ h1 {
   color: #ffffff;
 }
 
+p {
+  /*font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0 0 0.8em 0;
+  display: block;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  */
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
 .about-container {
   text-align: center;
   color: white;
@@ -61,3 +85,69 @@ h1 {
   text-align: center;
   color: white;
 }
+
+/*About page styling */
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -100px;
+  margin-left: 30%;
+  gap: 20px;
+  height: 500px;
+}
+
+.profile-image {
+  width: 250px;  /* Set a fixed width */
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* This will ensure the image covers the area without distortion */
+  border-radius: 25%; /* This will make the images circular. Remove if you want square images */
+}
+
+.intro {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 0 0 0.8em 0;
+  display: block;
+  max-width: 800px;
+  margin-left: 50px;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* Work/Project component styling */
+.work-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-right: 25%;
+  gap: 20px;
+  height: 500px;
+}
+
+.work-content{
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 0 0 0.8em 0;
+  display: block;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.work-photo{
+  width: 400px;  /* Set a fixed width */
+  height: 400px; /* Set a fixed height */
+  object-fit: cover; /* This will ensure the image covers the area without distortion */
+  border-radius: 25%; /* This will make the images circular. Remove if you want square images */
+}
+
+.description {
+  text-align: left;
+}
+      
