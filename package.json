@@ -1,5 +1,6 @@
 {
   "name": "personalwebsite",
+  "homepage": "https://harrydawin.github.io/PersobalWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
